@@ -1,8 +1,5 @@
 import random
 import secrets
-import sys
-
-sys.setrecursionlimit(2000)
 
 #Returns the greatest common divisor of a and b using the euclidean algorithm
 def gcd(a: 'int', b: 'int') -> 'gcd(a,b), list of operations':
