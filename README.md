@@ -6,9 +6,9 @@ Simple implementation of the RSA algorithm written in Python. The aim of this pr
 The modulo is an arithmetic operation that computes the remainder of the euclidean division. Here are the most important cases:
 1. 0 mod any integer other than 0 gives back 0.
 2. a mod n where a is strictly inferior than n gives back a.
-3. a mod n where a is greater than or equal to n gives back the remainder of the euclidean division: rem = a - k times n.
+3. a mod n where a is greater than or equal to n gives back the remainder of the euclidean division: rem = a - k times n, with max(k) s. t. k times n is inferior than or equal to n.
 ### Congruence modulo
-
+Coming soon
 ## How does the RSA algorithm work?
 Coming soon
 ## Generating large prime numbers
